@@ -39,3 +39,11 @@ FORMS += \
 
 RESOURCES += \
     rycomres.qrc
+
+target.path = $$PREFIX/bin
+desktop.files = RYCOM.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons/hicolor/apps/
+icons.files = rymculogo.png
+
+INSTALLS += target desktop icons
